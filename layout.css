@@ -1,0 +1,38 @@
+body{
+    margin: 4%;
+    background-color: rgb(169, 119, 182);
+    background-image: url("Images/WebLayer/7.png");
+    background-repeat: repeat;
+    background-size: 70%;
+    background-attachment: fixed;
+}
+
+#MainBorderStart{
+    border: solid #423d49 5px;
+    padding: 7px;
+    padding-top: 20px;
+    background-color: #716283;
+    color: #c9a6f2;
+}
+#MainBorderArt{
+    border: solid #423d49 5px;
+    padding-top: 10px;
+    background-color: #caa3c9;
+    color: #202844;
+}
+#MainBorderPro{
+    border: solid #423d49 5px;
+    padding-top: 10px;
+    background-color: #505875;
+    color: #caa3c9;
+}
+hr{
+    background-color: #c9a6f2;
+}
+#footer{
+    font-size: 10px;
+}
+
+#contactsAndSocialMedia button{
+    background-color: #c9a6f2;
+}
