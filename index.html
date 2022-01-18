@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jusauria Commission</title>
-    <link rel="shortcut icon" type="image/x-icon" href=" Images/WebIcon/gfdgdf.png">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/WebIcon/abc.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="layout.css">
     <script src="allWork.js" defer></script>
@@ -14,7 +14,7 @@
     <div id="MainBorderStart" class="card col-md-8 mx-auto">
         <div class="card-body text-center">
             <section id="start">
-                <img src="Images/WebIcon/gfdgdf.png" class="col-md-4 mx-auto d-block img-thumbnail" alt="a picture">            
+                <img src="Images/WebIcon/abc.png" class="col-md-4 mx-auto d-block img-thumbnail" alt="a picture">            
                 <div class="text-center">
                     <h1 class="card-title">Jusauria</h1>
                     <p class="card-subtitle mb-2 ">SFW and NSFW Artist / <br> Programmer Student </p>
@@ -23,12 +23,20 @@
 
             <hr class="col-md-7">
             <section id="Commissions">
+                <h4 class="text-center"> My Commissions</h1>
                 <a href="artcom1.html"><button class="font-weight-bolder mb-2 btn btn-light col-md-4"> Art Commission</button></a>
                 <a href="procom.html"><button class="font-weight-bolder mb-2 btn btn-light col-md-4"> Programming Commission</button></a>
             </section>
 
             <hr class="col-md-7">
 
+            <section id="MyCreations">
+                <h4 class="text-center"> My Creations</h1>
+                <a href="https://www.wattpad.com/user/Jusauria"><button class="font-weight-bolder mb-2 btn btn-info col-md-4"> My Books and Stories</button></a>
+                <a href="#"><button id="wip" class=" font-weight-bolder mb-2 btn btn-info col-md-4">My Web Games [WIP]</button></a>
+            </section>
+
+<hr class="col-md-7">
             <section id="SupportAndInfos">
                 <button class="font-weight-bolder mb-2 btn btn-outline-info  col-md-3" onclick="alert('Ask her yourself')"> About Jusauria</button>
                 <a href="https://ko-fi.com/jusauria"><button class="font-weight-bolder mb-2 btn btn-outline-info col-md-3">Support me on Ko-fi</button></a>
@@ -63,8 +71,8 @@
                         viewBox="0 0 24 24"><path d="M6 6h6l2-4h4v4l-3.5 7H18v5h-6l-2 4H6v-4l3.5-7H6V6z" fill="currentColor"/></svg>
                     </button>
                 </a>
-                <a href="https://discord.gg/user/jusauria#0948">
-                    <button class="text-light btn rounded-circle p-3 m-1">
+                <a href="#">
+                    <button id="discord"class="text-light btn rounded-circle p-3 m-1">
                         <svg xmlns="http://www.w3.org/2000/svg" 
                         width="30" height="30" fill="currentColor" 
                         class="bi bi-discord" viewBox="0 0 16 16">
@@ -79,11 +87,21 @@
         </div>
         <div id="footer" class=" card-footer text-center" >
             Programmed/Designed by Jusauria <br>
-            ©Jusauria v1.1
+            ©Jusauria v2
         </div>
         
         
     </div>
     
 </body>
+<script>
+    document.getElementById('wip').onclick=()=>{
+        alert('This is still in work. Sorry');
+    }
+
+    document.getElementById('discord').onclick=()=>{
+        alert('Add me as friend: Jusauria#0948');
+    }
+
+</script>
 </html>
